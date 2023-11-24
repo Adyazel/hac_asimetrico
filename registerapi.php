@@ -3,7 +3,7 @@
 include('connetion.php');
 
 $configargs = array(
-    "config" => "C:/xampp/php/extras/openssl/openssl.cnf",
+    "config" => "/etc/ssl/openssl.cnf",
     'private_key_bits' => 2048,
     'default_md' => "sha256",
 );
